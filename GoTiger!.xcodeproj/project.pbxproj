@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1253F6EB208FD0CB003CFDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253F6EA208FD0CB003CFDDE /* AppDelegate.swift */; };
+		1253F6ED208FD0CB003CFDDE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1253F6EC208FD0CB003CFDDE /* GameScene.sks */; };
+		1253F6EF208FD0CB003CFDDE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1253F6EE208FD0CB003CFDDE /* Actions.sks */; };
+		1253F6F1208FD0CB003CFDDE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253F6F0208FD0CB003CFDDE /* GameScene.swift */; };
+		1253F6F3208FD0CB003CFDDE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253F6F2208FD0CB003CFDDE /* GameViewController.swift */; };
+		1253F6F6208FD0CB003CFDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1253F6F4208FD0CB003CFDDE /* Main.storyboard */; };
+		1253F6F8208FD0CD003CFDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253F6F7208FD0CD003CFDDE /* Assets.xcassets */; };
+		1253F6FB208FD0CD003CFDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1253F6F9208FD0CD003CFDDE /* LaunchScreen.storyboard */; };
+		1253F706208FD0CD003CFDDE /* GoTiger_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253F705208FD0CD003CFDDE /* GoTiger_Tests.swift */; };
+		1253F711208FD0CD003CFDDE /* GoTiger_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253F710208FD0CD003CFDDE /* GoTiger_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1253F702208FD0CD003CFDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1253F6DF208FD0CB003CFDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1253F6E6208FD0CB003CFDDE;
+			remoteInfo = "GoTiger!";
+		};
+		1253F70D208FD0CD003CFDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1253F6DF208FD0CB003CFDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1253F6E6208FD0CB003CFDDE;
+			remoteInfo = "GoTiger!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1253F6E7208FD0CB003CFDDE /* GoTiger!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoTiger!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253F6EA208FD0CB003CFDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1253F6EC208FD0CB003CFDDE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1253F6EE208FD0CB003CFDDE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1253F6F0208FD0CB003CFDDE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1253F6F2208FD0CB003CFDDE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1253F6F5208FD0CB003CFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1253F6F7208FD0CD003CFDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1253F6FA208FD0CD003CFDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1253F6FC208FD0CD003CFDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1253F701208FD0CD003CFDDE /* GoTiger!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoTiger!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253F705208FD0CD003CFDDE /* GoTiger_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTiger_Tests.swift; sourceTree = "<group>"; };
+		1253F707208FD0CD003CFDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1253F70C208FD0CD003CFDDE /* GoTiger!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoTiger!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253F710208FD0CD003CFDDE /* GoTiger_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTiger_UITests.swift; sourceTree = "<group>"; };
+		1253F712208FD0CD003CFDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1253F6E4208FD0CB003CFDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253F6FE208FD0CD003CFDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253F709208FD0CD003CFDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1253F6DE208FD0CB003CFDDE = {
+			isa = PBXGroup;
+			children = (
+				1253F6E9208FD0CB003CFDDE /* GoTiger! */,
+				1253F704208FD0CD003CFDDE /* GoTiger!Tests */,
+				1253F70F208FD0CD003CFDDE /* GoTiger!UITests */,
+				1253F6E8208FD0CB003CFDDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1253F6E8208FD0CB003CFDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1253F6E7208FD0CB003CFDDE /* GoTiger!.app */,
+				1253F701208FD0CD003CFDDE /* GoTiger!Tests.xctest */,
+				1253F70C208FD0CD003CFDDE /* GoTiger!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1253F6E9208FD0CB003CFDDE /* GoTiger! */ = {
+			isa = PBXGroup;
+			children = (
+				1253F6EA208FD0CB003CFDDE /* AppDelegate.swift */,
+				1253F6EC208FD0CB003CFDDE /* GameScene.sks */,
+				1253F6EE208FD0CB003CFDDE /* Actions.sks */,
+				1253F6F0208FD0CB003CFDDE /* GameScene.swift */,
+				1253F6F2208FD0CB003CFDDE /* GameViewController.swift */,
+				1253F6F4208FD0CB003CFDDE /* Main.storyboard */,
+				1253F6F7208FD0CD003CFDDE /* Assets.xcassets */,
+				1253F6F9208FD0CD003CFDDE /* LaunchScreen.storyboard */,
+				1253F6FC208FD0CD003CFDDE /* Info.plist */,
+			);
+			path = "GoTiger!";
+			sourceTree = "<group>";
+		};
+		1253F704208FD0CD003CFDDE /* GoTiger!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1253F705208FD0CD003CFDDE /* GoTiger_Tests.swift */,
+				1253F707208FD0CD003CFDDE /* Info.plist */,
+			);
+			path = "GoTiger!Tests";
+			sourceTree = "<group>";
+		};
+		1253F70F208FD0CD003CFDDE /* GoTiger!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1253F710208FD0CD003CFDDE /* GoTiger_UITests.swift */,
+				1253F712208FD0CD003CFDDE /* Info.plist */,
+			);
+			path = "GoTiger!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1253F6E6208FD0CB003CFDDE /* GoTiger! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1253F715208FD0CD003CFDDE /* Build configuration list for PBXNativeTarget "GoTiger!" */;
+			buildPhases = (
+				1253F6E3208FD0CB003CFDDE /* Sources */,
+				1253F6E4208FD0CB003CFDDE /* Frameworks */,
+				1253F6E5208FD0CB003CFDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoTiger!";
+			productName = "GoTiger!";
+			productReference = 1253F6E7208FD0CB003CFDDE /* GoTiger!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1253F700208FD0CD003CFDDE /* GoTiger!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1253F718208FD0CD003CFDDE /* Build configuration list for PBXNativeTarget "GoTiger!Tests" */;
+			buildPhases = (
+				1253F6FD208FD0CD003CFDDE /* Sources */,
+				1253F6FE208FD0CD003CFDDE /* Frameworks */,
+				1253F6FF208FD0CD003CFDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1253F703208FD0CD003CFDDE /* PBXTargetDependency */,
+			);
+			name = "GoTiger!Tests";
+			productName = "GoTiger!Tests";
+			productReference = 1253F701208FD0CD003CFDDE /* GoTiger!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1253F70B208FD0CD003CFDDE /* GoTiger!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1253F71B208FD0CD003CFDDE /* Build configuration list for PBXNativeTarget "GoTiger!UITests" */;
+			buildPhases = (
+				1253F708208FD0CD003CFDDE /* Sources */,
+				1253F709208FD0CD003CFDDE /* Frameworks */,
+				1253F70A208FD0CD003CFDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1253F70E208FD0CD003CFDDE /* PBXTargetDependency */,
+			);
+			name = "GoTiger!UITests";
+			productName = "GoTiger!UITests";
+			productReference = 1253F70C208FD0CD003CFDDE /* GoTiger!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1253F6DF208FD0CB003CFDDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Thunpisit Amnuaikiatloet";
+				TargetAttributes = {
+					1253F6E6208FD0CB003CFDDE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1253F700208FD0CD003CFDDE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1253F6E6208FD0CB003CFDDE;
+					};
+					1253F70B208FD0CD003CFDDE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1253F6E6208FD0CB003CFDDE;
+					};
+				};
+			};
+			buildConfigurationList = 1253F6E2208FD0CB003CFDDE /* Build configuration list for PBXProject "GoTiger!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1253F6DE208FD0CB003CFDDE;
+			productRefGroup = 1253F6E8208FD0CB003CFDDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1253F6E6208FD0CB003CFDDE /* GoTiger! */,
+				1253F700208FD0CD003CFDDE /* GoTiger!Tests */,
+				1253F70B208FD0CD003CFDDE /* GoTiger!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1253F6E5208FD0CB003CFDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253F6F6208FD0CB003CFDDE /* Main.storyboard in Resources */,
+				1253F6ED208FD0CB003CFDDE /* GameScene.sks in Resources */,
+				1253F6F8208FD0CD003CFDDE /* Assets.xcassets in Resources */,
+				1253F6FB208FD0CD003CFDDE /* LaunchScreen.storyboard in Resources */,
+				1253F6EF208FD0CB003CFDDE /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253F6FF208FD0CD003CFDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253F70A208FD0CD003CFDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1253F6E3208FD0CB003CFDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253F6F1208FD0CB003CFDDE /* GameScene.swift in Sources */,
+				1253F6F3208FD0CB003CFDDE /* GameViewController.swift in Sources */,
+				1253F6EB208FD0CB003CFDDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253F6FD208FD0CD003CFDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253F706208FD0CD003CFDDE /* GoTiger_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253F708208FD0CD003CFDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253F711208FD0CD003CFDDE /* GoTiger_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1253F703208FD0CD003CFDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1253F6E6208FD0CB003CFDDE /* GoTiger! */;
+			targetProxy = 1253F702208FD0CD003CFDDE /* PBXContainerItemProxy */;
+		};
+		1253F70E208FD0CD003CFDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1253F6E6208FD0CB003CFDDE /* GoTiger! */;
+			targetProxy = 1253F70D208FD0CD003CFDDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1253F6F4208FD0CB003CFDDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1253F6F5208FD0CB003CFDDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1253F6F9208FD0CD003CFDDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1253F6FA208FD0CD003CFDDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1253F713208FD0CD003CFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1253F714208FD0CD003CFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1253F716208FD0CD003CFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S69HUYJ5S;
+				INFOPLIST_FILE = "GoTiger!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunpisit.GoTiger-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1253F717208FD0CD003CFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S69HUYJ5S;
+				INFOPLIST_FILE = "GoTiger!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunpisit.GoTiger-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1253F719208FD0CD003CFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S69HUYJ5S;
+				INFOPLIST_FILE = "GoTiger!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunpisit.GoTiger-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoTiger!.app/GoTiger!";
+			};
+			name = Debug;
+		};
+		1253F71A208FD0CD003CFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S69HUYJ5S;
+				INFOPLIST_FILE = "GoTiger!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunpisit.GoTiger-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoTiger!.app/GoTiger!";
+			};
+			name = Release;
+		};
+		1253F71C208FD0CD003CFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S69HUYJ5S;
+				INFOPLIST_FILE = "GoTiger!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunpisit.GoTiger-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoTiger!";
+			};
+			name = Debug;
+		};
+		1253F71D208FD0CD003CFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S69HUYJ5S;
+				INFOPLIST_FILE = "GoTiger!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunpisit.GoTiger-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoTiger!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1253F6E2208FD0CB003CFDDE /* Build configuration list for PBXProject "GoTiger!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253F713208FD0CD003CFDDE /* Debug */,
+				1253F714208FD0CD003CFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1253F715208FD0CD003CFDDE /* Build configuration list for PBXNativeTarget "GoTiger!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253F716208FD0CD003CFDDE /* Debug */,
+				1253F717208FD0CD003CFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1253F718208FD0CD003CFDDE /* Build configuration list for PBXNativeTarget "GoTiger!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253F719208FD0CD003CFDDE /* Debug */,
+				1253F71A208FD0CD003CFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1253F71B208FD0CD003CFDDE /* Build configuration list for PBXNativeTarget "GoTiger!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253F71C208FD0CD003CFDDE /* Debug */,
+				1253F71D208FD0CD003CFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1253F6DF208FD0CB003CFDDE /* Project object */;
+}
